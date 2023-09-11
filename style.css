@@ -9,13 +9,15 @@ body {
     display: flex;
     justify-content: center;
     background-color: #c5e4e7;
+    text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
     margin-top: 50px;
-    width: 800px;
+    width: 1000px;
     height: 450px;
+    overflow-wrap: break-word;
     background-color: #fff;
     border-radius: 20px;
     display: flex;
@@ -25,7 +27,9 @@ body {
     padding: 40px;
     width: 50%;
 }
-
+.division{
+    overflow-wrap: break-word;
+}
 input {
     width: 80%;
     border: none;
@@ -74,6 +78,7 @@ button {
     background: #00474b;
     color: #9dc8c9;
     width: 50%;
+    border-radius: 20px;
     padding: 30px;
 }
 
@@ -84,3 +89,13 @@ button {
 span {
     font-size: 30px;
 }
+
+body h1{
+    margin: 30px;
+    padding: 10px;
+}
+
+.navbar{
+    margin: 20px 30px 20px 20px;
+}
+
